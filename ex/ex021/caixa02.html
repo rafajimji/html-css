@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(98, 92, 109);
+
+        }
+        header {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px 0px ;
+
+            background-color: aliceblue;
+
+        }
+        nav {
+            background-color: rgb(215, 218, 250);
+            padding: 3px;
+            box-shadow:2px 4px 6px rgba(0, 0, 0, 0.411);
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px 6px 6px 6px;
+
+        }
+        article > aside {
+            background-color: rgb(215, 218, 250);
+
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit, </p>
+                
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvimento Por Rafael C.D</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
