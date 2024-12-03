@@ -1,0 +1,43 @@
+body {
+    background-image: url(imagens/wallpaper006.jpg);
+    background-size: cover; /* Ajusta para cobrir a tela */
+    background-position: center; /* Centraliza a imagem */
+    margin: 0; /* Remove margens padrão */
+    padding: 0;
+}
+
+/* Estilo para os blocos de mensagem */
+div.mensagem,
+div.mensagem2 {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.11);
+    display: inline-block; /* Para comportar os elementos como um "bala" */
+    padding: 20px; /* Espaço interno */
+    margin: 20px; /* Espaço externo entre os blocos */
+    border-radius: 20px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco */
+    font-family: Arial, sans-serif;
+    width: 300px; /* Define uma largura fixa */
+    height: auto; /* Deixa a altura ajustável ao conteúdo */
+}
+
+/* Ajustando posição e alinhamento */
+div.mensagem {
+    margin-left: 3%; /* Afasta da esquerda */
+    margin-top: 50px; /* Espaçamento do topo */
+}
+
+/* Para o segundo bloco */
+div.mensagem2 {
+    background-color: rgb(205, 229, 250);
+    margin-left: 80%; /* Posiciona à direita */
+    transform: translateX(-50%); /* Centraliza o bloco ao redor de 50% */
+    margin-top: 100px; /* Distância maior do topo */
+}
+
+/* Estilo para os títulos */
+div.mensagem h2,
+div.mensagem2 h2 {
+    color: rgba(0, 0, 0, 0.37);
+    margin-left: 80%;
+    text-align: center; /* Centraliza o texto no bloco */
+}
